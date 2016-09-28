@@ -5,27 +5,27 @@ A small npm library providing utility methods to `escape` and `unescape` HTML in
 
 ## Installation
 
-  npm install filterhtml --save
+	npm install filterhtml --save
 
 ## Usage
 
-  var filterhtml = require('filterhtml')
-      escape = filterhtml.escape,
-      unescape = filterhtml.unescape;
+	var filterhtml = require('filterhtml')
+	  escape = filterhtml.escape,
+	  unescape = filterhtml.unescape;
 
-  var html = "<h1>Hello World</h1>",
-      escaped = escape(html),
-      unescaped = unescape(escaped);
+	var html = "<h1>Hello World</h1>",
+	  escaped = escape(html),
+	  unescaped = unescape(escaped);
 
-  console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
+	console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
 
 ## Tests
 
-  npm test
+	npm test
 
 ## Contributing
 
-Take care to maintain the existing coding style. Add tests for any new functionalities.
+Please take care to maintain the existing coding style. Add tests for any new functionalities.
 
 ## Release History
 
