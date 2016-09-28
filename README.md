@@ -1,17 +1,17 @@
-FilterHtml
+EncodeHtml
 =========
 
 A small npm library providing utility methods to `escape` and `unescape` HTML input from the user.
 
 ## Installation
 
-	npm install filterhtml --save
+	npm install encodehtml --save
 
 ## Usage
 
-	var filterhtml = require('filterhtml')
-	  escape = filterhtml.escape,
-	  unescape = filterhtml.unescape;
+	var encodehtml = require('encodehtml')
+	  escape = encodehtml.escape,
+	  unescape = encodehtml.unescape;
 
 	var html = "<h1>Hello World</h1>",
 	  escaped = escape(html),

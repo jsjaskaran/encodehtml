@@ -1,5 +1,5 @@
 {
-  "name": "filterhtml",
+  "name": "encodehtml",
   "version": "0.1.0",
   "description": "escaping and unescaping HTML entities – commonly needed utils to prevent XSS attacks when rendering user generated content",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsjaskaran/filterhtml.git"
+    "url": "git+https://github.com/jsjaskaran/encodehtml.git"
   },
   "keywords": [
     "filter",
@@ -19,9 +19,9 @@
   "author": "Jaskaran <jaskarans13@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsjaskaran/filterhtml/issues"
+    "url": "https://github.com/jsjaskaran/encodehtml/issues"
   },
-  "homepage": "https://github.com/jsjaskaran/filterhtml#readme",
+  "homepage": "https://github.com/jsjaskaran/encodehtml#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.0"

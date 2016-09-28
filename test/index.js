@@ -1,7 +1,7 @@
 var should = require('chai').should(),
-	filterhtml = require('../index'),
-	escape = filterhtml.escape,
-	unescape = filterhtml.unescape;
+	encodehtml = require('../index'),
+	escape = encodehtml.escape,
+	unescape = encodehtml.unescape;
 
 describe('#escape', function(){
 	
