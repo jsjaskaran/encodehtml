@@ -1,0 +1,29 @@
+{
+  "name": "filterhtml",
+  "version": "0.1.0",
+  "description": "escaping and unescaping HTML entities – commonly needed utils to prevent XSS attacks when rendering user generated content",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsjaskaran/filterhtml.git"
+  },
+  "keywords": [
+    "filter",
+    "html",
+    "XSS",
+    "prevention"
+  ],
+  "author": "Jaskaran <jaskarans13@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsjaskaran/filterhtml/issues"
+  },
+  "homepage": "https://github.com/jsjaskaran/filterhtml#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
